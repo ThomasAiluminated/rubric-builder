@@ -2,6 +2,8 @@
 
 **Een Claude-skill die heldere, eerlijke beoordelingsrubrics bouwt, afgestemd op je leerdoelen of competenties.**
 
+🇬🇧 [English version](README.en.md) · 📄 [Voorbeelden](examples/)
+
 Je beschrijft de opdracht en plakt de leerdoelen erbij, en je krijgt een rubric met observeerbare niveaubeschrijvingen terug, plus een studentenversie en een korte kalibratiecheck voor collega-beoordelaars.
 
 *English summary: a Claude skill that builds clear, fair assessment rubrics aligned to learning outcomes or competencies, with observable performance levels, a student-friendly version and a calibration check. It works in Dutch, French and English.*
@@ -31,10 +33,14 @@ Deel je een bestaande rubric, dan krijg je eerst een korte diagnose en daarna ee
 
 Voor leerkrachten, docenten in het hoger onderwijs en trainers die opdrachten, projecten, presentaties, stages, portfolio's of praktijkvaardigheden beoordelen, van basisonderwijs tot bedrijfsopleiding.
 
-Deze skill hoort bij een reeks voor onderwijs en L&D:
-- [Assessment Item Writer](https://github.com/ThomasAiluminated/assessment-item-writer): toets- en examenvragen
-- [Learning Program Designer](https://github.com/ThomasAiluminated/learning-program-designer): opleidingen en leertrajecten ontwerpen
+Deze skill hoort bij **[Claude Skills for Education](https://github.com/ThomasAiluminated/claude-skills-for-education)**, een open reeks voor onderwijs en L&D:
 - [Edu Prompt Coach](https://github.com/ThomasAiluminated/edu-prompt-coach): prompts voor leerkrachten, met uitleg waarom ze werken
+- [Lesson Designer](https://github.com/ThomasAiluminated/lesson-designer): lessen ontwerpen van leerdoel tot exit-check
+- [Assessment Item Writer](https://github.com/ThomasAiluminated/assessment-item-writer): toets- en examenvragen met sleutel en feedback
+- [Feedback Writer](https://github.com/ThomasAiluminated/feedback-writer): specifieke, haalbare feedback op leerlingenwerk
+- [Inclusive Lesson Adapter](https://github.com/ThomasAiluminated/inclusive-lesson-adapter): lesmateriaal toegankelijk maken met UDL
+- [Learning Program Designer](https://github.com/ThomasAiluminated/learning-program-designer): opleidingen en leertrajecten ontwerpen
+- [Prompt Architect](https://github.com/ThomasAiluminated/prompt-architect): een ruwe vraag omzetten in een sterke prompt voor Claude
 
 ## Installeren
 
@@ -52,6 +58,7 @@ Daarna volstaat een gewone vraag, zoals *"maak een rubric voor stageverslagen, d
 ```
 rubric-builder/
 └── SKILL.md            # de volledige instructies van de skill
+examples/                 # voorbeelden van input en output
 rubric-builder.skill    # installeerbaar pakket
 ```
 
